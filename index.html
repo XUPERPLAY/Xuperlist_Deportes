@@ -675,7 +675,8 @@
     },
     
     init: function() {
-      this.config.liveBase = `${this.config.apiUrl}/live/${this.config.username}/${this.config.password}/`;
+      this.config.liveBase = `/live/${this.config.username}/${this.config.password}/`;
+
       document.getElementById("app-content").style.display = "flex";
       this.loadChannels();
     },
