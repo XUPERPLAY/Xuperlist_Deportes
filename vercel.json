@@ -5,4 +5,11 @@
       "destination": "http://esproipingttm.top:8080/:path*"
     }
   ]
+},
+{
+      "source": "/live/:path*",
+      "destination": "http://esproipingttm.top:8080/live/:path*"
+    }  
+  ]
 }
+
